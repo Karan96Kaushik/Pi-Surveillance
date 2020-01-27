@@ -11,4 +11,4 @@
 
 ## Expose to creepyfuck:8000
 
-1. place " **$ sudo autossh -R 8000:localhost:8000 ubuntu@creepyfuck.tech -p 2 &** " before " exit 0 " in **rc.local** file
+1. place " **autossh -R 8000:localhost:8000 ubuntu@creepyfuck.tech -p 2 &** " before " exit 0 " in **rc.local** file
